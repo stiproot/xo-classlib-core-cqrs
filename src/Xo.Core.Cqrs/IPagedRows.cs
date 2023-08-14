@@ -3,5 +3,5 @@
 public interface IPagedRows<TRow> : IPageable
     where TRow : IQueryResult
 {
-    IEnumerable<TRow> Rows { get; init; }
+    IEnumerable<TRow> Rows { get; set; }
 }
